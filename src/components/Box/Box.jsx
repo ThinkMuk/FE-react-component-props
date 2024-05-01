@@ -1,14 +1,14 @@
-import "./Box.css";
+import './Box.css';
 
-const Box = (props) => {
+const Box = ({ boxColor, txt }) => {
   return (
     <div
-      className="box"
+      className='box'
       style={{
-        backgroundColor: props.boxColor || "black",
+        backgroundColor: boxColor || 'black',
       }}
     >
-      <p></p>
+      <p>{txt}</p>
     </div>
   );
 };
