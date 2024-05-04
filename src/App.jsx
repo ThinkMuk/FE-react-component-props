@@ -1,6 +1,6 @@
 // import BoxAlign from './pages/BoxAlign';
-// import PlayGround from './pages/PlayGround';
-import SelectButtons from './pages/SelectButtons';
+import PlayGround from './pages/PlayGround';
+// import SelectButtons from './pages/SelectButtons';
 import './index.css';
 
 function App() {
@@ -17,8 +17,8 @@ function App() {
       }}
     >
       {/* <BoxAlign /> */}
-      <SelectButtons />
-      {/* <PlayGround /> */}
+      {/* <SelectButtons /> */}
+      <PlayGround />
     </div>
   );
 }

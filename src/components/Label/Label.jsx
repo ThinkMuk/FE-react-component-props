@@ -1,5 +1,9 @@
-const Label = () => {
-  return;
-};
+import React from 'react';
 
-export default Label;
+export default function Label({ id, children }) {
+  return (
+    <div style={{ margin: '7px' }}>
+      <label htmlFor={{ id }}>{children}</label>
+    </div>
+  );
+}
